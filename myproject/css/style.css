@@ -1,0 +1,172 @@
+*{
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:
+}
+#contenedor{
+background:#17202A;
+height: 940px;
+width: 1080px;
+margin-right: auto;
+margin-left: auto;
+}
+header {
+    background:#34495E;
+    height: 105px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h2{
+    background: #34495E;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+header h1{
+    background:#34495E;
+    width: 975px;
+    height: 30px;
+    font-family: lucida sans;
+    font-size: 20px;
+    color:rgb(1, 1, 34);
+    text-align: center;
+    padding-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+header section#menu{
+    background: rgb(1, 1, 34);
+    width: 950px;
+    height: 33px;
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+#contenedor{
+
+}
+#banner{
+    background:#1C2833;
+    width: 1070px;
+    height: 410px;
+    display: inline-block;
+    vertical-align:middle;
+    
+}
+#tema1{
+    background: #1C2833;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 340px;
+    height: 385px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#tema2{
+    background:#1C2833;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 340px;
+    height: 385px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#tema3{
+    background: #1C2833;
+    width: 340px;
+    height: 385px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#poema{
+    background:  #1C2833;
+    width: 1070px;
+    height: 400px;
+}
+#verso1{
+    background: #1C2833;
+    width: 340px;
+    height: 380px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#verso2{
+    background: #1C2833;
+    width: 340px;
+    height: 380px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#verso3{
+    background: #1C2833;
+    width: 340px;
+    height: 380px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+footer{
+    background:rgb(67, 95, 122);
+    width: 1070px;
+    height: 80px;
+    padding-top: 20px;
+}
+footer p{
+    font-family: consolas;
+    font-size: 30px;
+    text-align: center;
+}
+.button li {
+    list-style: none;
+    font-family: consolas;
+    text-align: center;
+}
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    display:block;
+}
+.nav li a:hover {
+  background-color: gray;
+  text-decoration: none;
+}
+.nav >li{
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position:absolute;
+    min-width: 100px; 
+     text-decoration: none;
+}
+.nav li:hover > ul {
+    display:block;
+     text-decoration: none;
+}
+.nav li ul li {
+    position: relative;
+     text-decoration: none;
+}
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+     text-decoration: none;
+}

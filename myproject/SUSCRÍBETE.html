@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PERFIL</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="js/boostrap.min.js">
+</head>
+<body background="img/back.jpg">
+    <header>
+        <h1><marquee behavior="alternate" direction="" width="975">
+            SOY UN SIMPLE MENSAJERO, QUE LO QUE IMPORTA ES EL MENSAJE
+        </marquee></h1>
+
+       <h2><a href="INDEX.html"><img src="img/fondo.jpg" alt="fondo" class="img-circle"></img></a></h2>
+
+        <section id="menu">
+            <div class="row-fluid">   
+                <div class="col-md-auto">
+                    <button class="nav" type="button">
+                        <li><a href="INDEX.html">INICIO</a></li>
+                    
+                        <li><a href="TEMAS.html">TEMAS</a></li>
+                    
+                        <li><a href="RIMAS.html">RIMAS</a></li>
+                    
+                        <li><a href="AUTOR.html">AUTOR</a></li>
+                    
+                        <li><a href="BIOGRAFÍA.html">BIOGRAFÍA</a></li>
+                    
+                        <li><a href="GALERIA.html">GALERÍA</a></li>
+                    
+                        <li><a href="REDSOCIAL.html">RED SOCIAL</a></li>
+                    
+                        <li><a href="CONTACTO.html">CONTACTO</a></li>
+                    
+                        <li><a href="CREADOR.html">CREADOR</a></li>
+                    
+                        <li><a href=" SUSCRÍBETE.html"> SUSCRÍBETE</a></li>
+                    </button>
+                </div>                
+            </div>
+        </section>
+    </header>
+    <section id="contenedor">
+        <section id="banner">
+            <article id="suscribir">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div id="mymodal" class="modal hide fade">
+                        <div class="modal-header">
+                            <img src="img/welcome.gif" alt="amor" width="200" height="110" align="left" class="img-rounded">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <center>
+                                <font color="#C42402" face="Consolas">
+                                    <h3>SUSCRÍBETE Y DEJA TUS SUGERENCIAS</h3>
+                                </font>
+                            </center>
+                        </div>
+                        <div class="modal-body">
+                            <font color="#F23C15">
+                            <strong> NOMBRES Y APELLIDOS</strong>&nbsp;
+                            <input type="text" class="nombre" placeholder="YOUR NAME(Juan Perez M)" maxlength="40" required/>
+                            <br>
+                            <strong>EMAIL</strong>&nbsp;
+                            <input type="email" class="email" placeholder="YOUR EMAIL(ejemplo@hotmail.com)"  maxlength="50" required/>
+                            <br>
+                            <strong>SUGERENCIA</strong>&nbsp;
+                            <textarea type="text" class="form-control" style="height:80px;" placeholder="Write down your message..." required/></textarea>
+                            <br>
+                            </font>
+                    
+                        </div>
+                        <div class="modal-footer">
+                        <button class="btn btn-primary" type="submit" data-dismiss="modal">ENVIAR</button>
+                        <button class="btn btn-danger" type="close" data-dismiss="modal">CLOSE</button>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    </div>
+                    
+                    <div class="card">
+                        <div>
+                            <center>
+                                <a href="#mymodal" data-toggle="modal" class="btn">
+                                    <img class="img-rounded" src="img/suscribete.png" alt="Card image cap" width="300" height="200">
+                                </a>
+                            </center>
+                        </div>
+                        <div class="card-body">
+                            <center>
+                                <button type="button" class="btn btn-primary">
+                                    <a href="#mymodal" data-toggle="modal" class="btn">SUSCRÍBETE Y DEJA TU SUGERENCIA</a>
+                                </button>
+                            </center>
+                            <p class="card-text" align="center">
+                                <font color="#EC3007" size="2">
+                                    "Si no te gusta algo, cámbialo, y si no lo puedes cambiar, cambia de actitud".
+                                </font>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <strong>
+                                <font color="#EC3007" size="3">
+                                    <p align="center">Gracias por visitar mi página. Suscríbete y comparte.</p>
+                                </font>
+                            </strong>
+                        </div>
+                    </div>                                                                     
+            
+           </article>
+
+           <article id="suscribir1">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <iframe src="video/harmonics.mp4"  noresize="noresize" border="0" frameborder="0" width="700" height="410"></iframe>
+                    </div>
+                </div>
+           </article>
+           
+        </section>
+
+        <footer>
+            <p><marquee behavior="alternate" direction="">
+                <font face="consolas" color="#EC1107">GRACIAS PÓR TU VISITA</font>
+            </marquee></p>
+        </footer>
+            
+        
+    </section>
+    
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $().ready(function(){
+        $("#myslide").carousel({
+             interval: 1000,
+            pause:"hover",
+        });
+    });
+    </script>
+</body>
+</html>

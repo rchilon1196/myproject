@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PERFIL</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilosind.css">
+    <link rel="stylesheet" href="js/boostrap.min.js">
+</head>
+<body background="img/back.jpg">
+<section id="contenedor">
+    <header>
+        <h1>
+            <marquee behavior="alternate" direction="" width="975">
+                SOY UN SIMPLE MENSAJERO, QUE LO QUE IMPORTA ES EL MENSAJE
+            </marquee>
+        </h1>
+
+       <h2><a href="INDEX.html"><img src="img/fondo.jpg" alt="fondo" class="img-circle"></img></a></h2>
+
+        <section id="menu">
+            <div class="row-fluid">   
+                <div class="col-md-auto">
+                    <button class="nav" type="button">
+                        <li><a href="INDEX.html">INICIO</a></li>
+                    
+                        <li><a href="TEMAS.html">TEMAS</a></li>
+                    
+                        <li><a href="RIMAS.html">RIMAS</a></li>
+                    
+                        <li><a href="AUTOR.html">AUTOR</a></li>
+                    
+                        <li><a href="BIOGRAFÍA.html">BIOGRAFÍA</a></li>
+                    
+                        <li><a href="GALERIA.html">GALERÍA</a></li>
+                    
+                        <li><a href="REDSOCIAL.html">RED SOCIAL</a></li>
+                    
+                        <li><a href="CONTACTO.html">CONTACTO</a></li>
+                    
+                        <li><a href="CREADOR.html">CREADOR</a></li>
+                    
+                        <li><a href=" SUSCRÍBETE.html"> SUSCRÍBETE</a></li>
+                    </button>
+                </div>                
+            </div>
+        </section>
+    </header>
+
+    <section id="banner">
+        <audio src="audio/condor.mp3" autoplay></audio>
+        <section id="imagen">
+            
+        <div class="row-fluid">
+    
+            <div class="span1">&nbsp;</div>
+            <div class="span8">&nbsp;
+                         
+                <div id="myslide" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myslide" data-slide-to="1" class="active"></li>
+                        <li data-target="#myslide" data-slide-to="2"></li>
+                        <li data-target="#myslide" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="imG/RUBEN.jpg" alt="">
+                                <div class="carousel-caption">
+                                    <h4 align="center">LA CONFIANZA EN SÍ MISMO ES EL PRIMER SECRETO DEL ÉXITO</h4>
+                                </div>
+                        </div>
+                        <div class="item">
+                                 <img src="imG/PERRITO.jpg" alt="">
+                                     <div class="carousel-caption">
+                                         <h4 align="center">HAGAS LOS QUE HAGAS PONLE GANAS</h4>
+                                     </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/dog.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h4 align="center">LA FELICIDAD DE TU VIDA DEPENDE DE LA CALIDAD DE TUS PENSAMIENTOS</h4>
+                            </div>
+                        </div>
+                    </div>
+                        <a href="#myslide" data-slide="prev" class="carousel-control left">&lsaquo;</a>
+                        <a href="#myslide" data-slide="next" class="carousel-control right">&rsaquo;</a>
+                </div>
+                 
+            </div>
+            <div class="span2">&nbsp;</div>
+        </div>
+        </section>
+
+        <section id="welcome">
+            <p>
+                <font size="6">
+                    <a href="INDEX.html">BIENVENIDOS</a>
+                </font>
+            </p>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <p align="center">
+                <font size="5">
+                    <a href="INDEX.html">A MI PÁGINA WEB</a>
+                </font>
+            </p>
+             &nbsp; &nbsp; &nbsp; &nbsp;
+            <P align="justify"><font size="5" color="white">Reciban un cordial saludo, y quiero darles la bienvenida a mi página web, una forma de interacción con las demás personas.  </font></P>
+        </section>
+    </section>
+    
+    <footer>
+       
+        <h6><font size="25">HOY ES UN BUEN DÍA PARA SONREIR</font></h6>
+     
+    </footer>
+
+</section>
+    
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $().ready(function(){
+        $("#myslide").carousel({
+             interval: 1000,
+            pause:"hover",
+        });
+    });
+    </script>
+</body>
+</html>
